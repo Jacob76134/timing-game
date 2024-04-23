@@ -1,7 +1,7 @@
 "use client"
 import React, { useEffect, useState } from 'react';
 
-export default function gameENGINE({children, playerCount}:any) {
+export default function GameENGINE({children, playerCount}:any) {
 
     const [time, setTime] = useState(10);
     const [start, setStart] = useState(false);
