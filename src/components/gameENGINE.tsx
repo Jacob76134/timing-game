@@ -26,7 +26,6 @@ export default function GameENGINE({children, playerCount}:any) {
         } else {
             setTime(10);
             setStart(false);
-            setGamePhase('resolve');
         }
         return () => clearInterval(interval);
     }, [start, time]);
